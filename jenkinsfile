@@ -1,0 +1,24 @@
+pipeline{
+  agent any
+  stages{
+    stage('ass-3){
+       steps{
+          echo 'ass-3'
+      }
+    }
+  }
+  stages{
+    stage('ass-4){
+     steps{
+        echo 'ass-4'
+      }
+    }
+  }
+  stages{
+    stage('ass-5){
+      steps{
+        echo 'ass-5'
+      }
+    }
+  }
+ }
