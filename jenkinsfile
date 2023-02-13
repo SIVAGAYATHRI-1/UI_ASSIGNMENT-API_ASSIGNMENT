@@ -10,14 +10,14 @@ pipeline{
   stages{
     stage('ass-4){
      steps{
-        echo 'ass-3'
+        echo 'ass-4'
       }
     }
   }
   stages{
     stage('ass-7){
       steps{
-        echo 'ass-3'
+        echo 'ass-5'
       }
     }
   }
